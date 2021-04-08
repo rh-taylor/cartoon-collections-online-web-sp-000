@@ -35,9 +35,7 @@ binding.pry
 def find_the_cheese(snack_array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snack_array.detect do |snack|
-    snack == "#{cheese_types[0]}" || "#{cheese_types[1]}" || "#{cheese_types[2]}"
-  end
+ 
 end
 
 
